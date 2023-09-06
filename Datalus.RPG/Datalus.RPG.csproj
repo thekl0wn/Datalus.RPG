@@ -41,13 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Components - Basic.cs" />
-    <Compile Include="Components - Campaign.cs" />
-    <Compile Include="Components - Character.cs" />
-    <Compile Include="Components - Player.cs" />
-    <Compile Include="Manager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="World.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Datalus.Core\Datalus.Core\Datalus.Core.csproj">
+      <Project>{f5bde28d-55a1-4839-b99c-d8d9cb97d18d}</Project>
+      <Name>Datalus.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

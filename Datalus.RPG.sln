@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datalus.RPG", "Datalus.RPG\Datalus.RPG.csproj", "{21702C24-DFED-42C5-9AD0-21A3BE8597B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datalus.Core", "..\Datalus.Core\Datalus.Core\Datalus.Core.csproj", "{F5BDE28D-55A1-4839-B99C-D8D9CB97D18D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{21702C24-DFED-42C5-9AD0-21A3BE8597B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21702C24-DFED-42C5-9AD0-21A3BE8597B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21702C24-DFED-42C5-9AD0-21A3BE8597B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5BDE28D-55A1-4839-B99C-D8D9CB97D18D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BDE28D-55A1-4839-B99C-D8D9CB97D18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BDE28D-55A1-4839-B99C-D8D9CB97D18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BDE28D-55A1-4839-B99C-D8D9CB97D18D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
